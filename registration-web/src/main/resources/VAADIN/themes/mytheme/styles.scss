@@ -1,0 +1,15 @@
+@import "../valo/valo.scss";
+@import "addons.scss";
+@import "calendar.scss";
+
+.mytheme {
+  @include valo;
+
+    @include addons;
+
+    @include meetings_calendar;
+  /* An actual theme rule */
+  .v-button {
+    color: blue;
+  }
+}
